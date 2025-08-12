@@ -1,0 +1,27 @@
+python-decouple
+celery   #for background tasks
+redis    #acts as a broker (message queue)
+django-celery-beat   #for scheduling periodic tasks like tracking updates
+django
+pillow
+django-redis   #for caching
+django-cors-headers   #for handling CORS
+setuptools
+razorpay   #for payment gateway integration
+requests
+pywebpush
+django-celery-results
+daphne
+npm install --save web-push
+npx web-push generate-vapid-keys
+
+# docker run -d -p 6379:6379 --name redis redis
+#  docker exec -it redis redis-cli
+
+# python -m celery -A PerfumeValley worker --pool=solo --loglevel=info   this is for running celery worker
+# python -m celery -A PerfumeValley beat --loglevel=info   this is for running celery beat
+
+# add category name must be 'gift sets' and category name "Attars" and "incense"
+#daphne -b 0.0.0.0 -p 8001 SLNProject.asgi:application
+# for running daphne server
+ 

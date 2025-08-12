@@ -1,0 +1,126 @@
+.navbar {
+    width: 1440px;
+    height: 114px;
+    
+    opacity: 1;
+    position: relative;
+    top: 40px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.nav-item{
+    font-size: 18px;
+    font-family: Lato;
+    font-weight: 400;
+    line-height: 20px;
+    color: black;
+    padding: 10px;
+    padding-left: 25px;
+    margin-top: 1px;
+    /* word-wrap: break-word; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    .navbar-nav .nav-link {
+                color: black !important; /* Force black text */
+            }
+            .navbar-nav .nav-link:hover {
+                color: black !important; /* Force black text on hover */
+                text-decoration: none; /* Remove underline on hover */
+            }
+            
+    .navbar-nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    
+    @media (max-width: 768px) {
+        .navbar {
+            height: auto; /* Adjust for small screens */
+        }
+    
+        .navbar-nav {
+            flex-direction: column;
+            text-align: left;
+        }
+        .navbar-toggler{
+                margin-right: 10px;
+                margin-bottom: 10px;
+            }
+    
+            }
+            .img-fluid1{
+                height: 10px;
+                width: 10px;
+            }
+            .navbar-toggler{
+                margin-left: 10px;
+                margin-bottom: 10px;
+            }
+            .navbar-nav{
+                margin-left: 10px;
+            
+            }
+            
+            .icon-bold:hover {
+                color: crimson;
+                transform: scale(1.1);
+                transition: 0.2s;
+            }
+            
+
+            .icon-bold {
+                font-size: 1.5rem; /* Increase size */
+                color: #000;/* Darker makes it appear bolder */
+            }
+            .icons img {
+                width: 24px;
+                height: 24px;
+                
+            }.img-fluid{
+                width: 169px;
+                height: 96px;
+            }
+           
+    .logo{
+        border-radius:0px;
+    }
+    
+    
+    
+            .footer-container {
+                background: #FBF0EF;
+            }
+            .endtext {
+                background: #FBF0EF;
+            }
+            @media (max-width: 768px) {
+                
+                .logo img {
+                    margin-left: 20px;
+                }
+                .nav-item {
+                    font-size: 16px;
+                }
+                .icons img {
+                    width: 20px;
+                    height: 20px;
+                }
+        
+    
+            }
+            .img-fluid1{
+                height: 10px;
+                width: 10px;
+            }
+            .navbar-toggler{
+                margin-left: 10px;
+                margin-bottom: 10px;
+            }
+            .navbar-nav{
+                margin-left: 10px;
+            }
